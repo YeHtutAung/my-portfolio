@@ -743,6 +743,21 @@ body {
   color: var(--color-text-300);
 }
 
+.contact-phone {
+  margin: 0 0 var(--space-5);
+  color: var(--color-text-200);
+}
+
+.contact-phone a {
+  color: var(--color-accent-400);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-phone a:hover {
+  text-decoration: underline;
+}
+
 .form-contact {
   display: grid;
   gap: 0.55rem;
